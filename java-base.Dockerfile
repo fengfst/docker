@@ -7,6 +7,7 @@ MAINTAINER sundays
 WORKDIR ~/
 
 run yum install -y wget unzip \
+# ADD jdk-8u201-linux-x64.rpm /root/
 && wget --no-check-certificate --no-cookies --header \
 "Cookie: oraclelicense=accept-securebackup-cookie" \
 https://download.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-linux-x64.rpm \
